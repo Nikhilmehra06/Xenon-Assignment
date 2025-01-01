@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/xenon-assignment/static/css/main.15906d66.css",
+    "main.js": "/xenon-assignment/static/js/main.cc971e60.js",
+    "index.html": "/xenon-assignment/index.html",
+    "main.15906d66.css.map": "/xenon-assignment/static/css/main.15906d66.css.map",
+    "main.cc971e60.js.map": "/xenon-assignment/static/js/main.cc971e60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15906d66.css",
+    "static/js/main.cc971e60.js"
+  ]
+}
