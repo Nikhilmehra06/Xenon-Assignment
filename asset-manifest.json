@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Xenon-Assignment/static/css/main.15906d66.css",
-    "main.js": "/Xenon-Assignment/static/js/main.60db9f3d.js",
+    "main.js": "/Xenon-Assignment/static/js/main.384d19aa.js",
     "index.html": "/Xenon-Assignment/index.html",
     "main.15906d66.css.map": "/Xenon-Assignment/static/css/main.15906d66.css.map",
-    "main.60db9f3d.js.map": "/Xenon-Assignment/static/js/main.60db9f3d.js.map"
+    "main.384d19aa.js.map": "/Xenon-Assignment/static/js/main.384d19aa.js.map"
   },
   "entrypoints": [
     "static/css/main.15906d66.css",
-    "static/js/main.60db9f3d.js"
+    "static/js/main.384d19aa.js"
   ]
 }
