@@ -1,0 +1,58 @@
+.sidebar {
+    height: auto;
+    width: 90px !important;
+    background-color: #f7f7f8;
+    border: 1px solid #e7e7e7;
+    border-radius: 22px;
+    padding: 20px;
+    display: flex; // Enable flexbox
+    flex-direction: column; // Vertical layout
+    position: relative; // For absolute positioning of bottom
+  
+    .sidebar__logo {
+      margin: 20px 0;
+      text-align: center;
+    }
+  
+    .sidebar__menu {
+      width: 100%; // Take up full width of sidebar
+      flex-grow: 1; // Allow menu to take available space
+      overflow-y: auto; // Add scroll if needed
+      border-top: 1px solid rgba(231, 231, 231, 1);
+
+      display: flex !important; // Override react-pro-sidebar styles
+      flex-direction: column !important; // Override react-pro-sidebar styles
+      opacity: 1; // Make menu visible
+      gap: 0;
+      padding: 0;
+      overflow: hidden; // Remove scrollbar from menu
+
+    }
+    .sidebar__item{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 0;
+    }
+  
+    .sidebar__bottom {
+      width: 50px;
+      height: 50px;
+      border-radius: 12px;
+      background-color: #2e4fe157;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute; // Position at the bottom
+      bottom: 20px; // Align to the bottom edge, accounting for padding
+      left: 50%;
+      transform: translateX(-50%);
+  
+      span {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+      }
+    }
+  }
+  
