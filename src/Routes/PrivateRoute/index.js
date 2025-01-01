@@ -14,6 +14,6 @@ export function PrivateRoute() {
       <Outlet />
     </MainLayout>
   ) : (
-    <Navigate to="/home" />
+    <Navigate to={"/home"} />
   );
 }
